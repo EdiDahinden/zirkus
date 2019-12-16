@@ -1,0 +1,62 @@
+
+body{
+    background-color: dimgray;
+    margin: 5px;
+    padding: 5px;
+   
+}
+.logo{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    height: auto;
+    justify-content: center;
+
+}
+.logo:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+}
+.title{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 5px red;
+}
+.title:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+}
+.subtitle{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-size-adjust: 16px;
+}
+.subtitle:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.button{
+flex: 1;
+text-align: center;
+justify-content: space-around;
+
+}
+.button:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+}
+.text-1{
+    text-align: center;
+    
+}
+.text-1:hover{
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.5); 
+}

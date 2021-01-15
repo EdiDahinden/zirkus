@@ -10,12 +10,12 @@
   <body>
     <div class="button">
       <button
-        onclick="window.location.href = 'http://127.0.0.1:5501/index.html';"
+        onclick="window.location.href = 'http://127.0.0.1:5500/index.html';"
       >
         HOME
       </button>
       <button
-        onclick="window.location.href = 'http://127.0.0.1:5501/gallery.html';"
+        onclick="window.location.href = 'http://127.0.0.1:5500/gallery.html';"
       >
         GALLERY
       </button>
@@ -26,82 +26,44 @@
         ABOUT US
       </button>
       <button
-        onclick="window.location.href = 'http://127.0.0.1:5501/kontact.html';"
+        onclick="window.location.href = 'http://127.0.0.1:5500/kontact.html';"
       >
         CONTACT
       </button>
     </div>
-    <div class="gallery">
-      <a target="_blank" href="img_age1.jpg">
-        <img src="age1.jpg" alt="age1" />
-      </a>
-      <div class="desc">Twist move</div>
-
-      <a target="_blank" href="img_age2.jpg">
-        <img src="age2.jpg" alt="age2" />
-      </a>
-      <div class="desc">kangaro move</div>
-
-      <a target="_blank" href="img_age3.jpg">
-        <img src="age3.jpg" alt="img_age3" />
-      </a>
-      <div class="desc">7ball stand</div>
-
-      <a target="_blank" href="img_age4.jpg">
-        <img src="age4.jpg" alt="age4" />
-      </a>
-      <div class="desc">9ball stand</div>
+    <div class="row">
+      <div class="column">
+        <img src="age1.JPG" alt="3 ball Under " style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age2.JPG" alt="5 ball Mini" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age3.JPG" alt=" 7 ball Twist" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age4.JPG" alt="9 ball Lights" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age5.JPG" alt=" Forhead balance" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age6.JPG" alt="5 ball in the air" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age7.JPG" alt=" 3 ball Mindfulness" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="age8.JPG" alt="dancing with balls" style="width:100%" onclick="myFunction(this);">
+      </div>
+    
     </div>
-
-    <div class="ethiopia">
-      In 1889, the Italians signed the Treaty of Wuchale with then Negus[nb 2]
-      Menelik of Shewa. The treaty ceded territories previously part of
-      Ethiopia, namely the provinces of Bogos, Hamasien, Akele Guzai, Serae, and
-      parts of Tigray. In return, Italy promised Menelik II continued rule,
-      financial assistance and military supplies. A dispute later arose over the
-      interpretation of the two versions of the document. The Italian-language
-      version of the disputed Article 17 of the treaty stated that the Emperor
-      of Ethiopia was obliged to conduct all foreign affairs through Italian
-      authorities. This would in effect make Ethiopia a protectorate of the
-      Kingdom of Italy. The Amharic version of the article however, stated that
-      the Emperor could use the good offices of the Kingdom of Italy in his
-      relations with foreign nations if he wished. However, the Italian
-      diplomats claimed that the original Amharic text included the clause and
-      that Menelik II knowingly signed a modified copy of the Treaty.[15] The
-      Italian government decided on a military solution to force Ethiopia to
-      abide by the Italian version of the treaty. As a result, Italy and
-      Ethiopia came into confrontation, in what was later to be known as the
-      First Italo-Ethiopian War. In December 1894, Bahta Hagos led a rebellion
-      against the Italians in Akele Guzai, in what was then Italian controlled
-      Eritrea. Units of General Oreste Baratieri's army under Major Pietro
-      Toselli [it] crushed the rebellion and killed Bahta. The Italian army then
-      occupied the Tigrayan capital, Adwa. In January 1895, Baratieri's army
-      went on to defeat Ras Mengesha Yohannes in the Battle of Coatit, forcing
-      Mengesha to retreat further south. By late 1895, Italian forces had
-      advanced deep into Ethiopian territory. On 7 December 1895, Ras Makonnen
-      Wolde Mikael, Ras Welle Betul and Ras Mengesha Yohannes commanding a
-      larger Ethiopian group of Menelik's vanguard annihilated a small Italian
-      unit at the Battle of Amba Alagi. The Italians were then forced to
-      withdraw to more defensible positions in Tigray Province, where the two
-      main armies faced each other. By late February 1896, supplies on both
-      sides were running low. General Oreste Baratieri, commander of the Italian
-      forces, knew the Ethiopian forces had been living off the land, and once
-      the supplies of the local peasants were exhausted, Emperor Menelik II's
-      army would begin to melt away. However, the Italian government insisted
-      that General Baratieri act. The landscape of Adwa On the evening of 29
-      February, Baratieri, about to be replaced by a new governor, General
-      Baldissera, met with his brigadier generals Matteo Albertone, Giuseppe
-      Arimondi, Vittorio Dabormida, and Giuseppe Ellena, concerning their next
-      steps. He opened the meeting on a negative note, revealing to his
-      brigadiers that provisions would be exhausted in less than five days, and
-      suggested retreating, perhaps as far back as Asmara. His subordinates
-      argued forcefully for an attack, insisting that to retreat at this point
-      would only worsen the poor morale.[16] Dabormida exclaiming, "Italy would
-      prefer the loss of two or three thousand men to a dishonorable retreat."
-      Baratieri delayed making a decision for a few more hours, claiming that he
-      needed to wait for some last-minute intelligence, but in the end announced
-      that the attack would start the next morning at 9:00am.[17] His troops
-      began their march to
+    
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
     </div>
+    <script src="./gallery.js"></script>
   </body>
 </html>

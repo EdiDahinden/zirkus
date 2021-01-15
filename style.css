@@ -1,3 +1,74 @@
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: rgb(61, 61, 61);
+}
+
+.intro {
+  background: rgb(5, 5, 5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: rgb(89, 110, 110);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.hide {
+  background: rgb(5, 5, 5);
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
 
 body{
     background-color: dimgray;
@@ -9,13 +80,13 @@ body{
     display: flex;
     width: 100%;
     max-width: 1700px;
-    height: auto;
+    height: ;
     justify-content: center;
 
 }
 .logo:hover{
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
         transform: scale(1.5); 
 }
 .title{
@@ -26,37 +97,38 @@ body{
     text-shadow: 2px 2px 5px red;
 }
 .title:hover{
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
         transform: scale(1.5); 
 }
 .subtitle{
     color: rgb(0, 0, 0);
     text-align: center;
-    text-size-adjust: 16px;
+    font-size: 37px;
 }
 .subtitle:hover{
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
     transform: scale(1.5); 
 }
 .button{
-flex: 1;
+flex: 10;
 text-align: center;
-justify-content: space-around;
+justify-content: center; 
+font-size: 40px;
 
 }
 .button:hover{
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
         transform: scale(1.5); 
 }
 .text-1{
     text-align: center;
-    
+    font-size: 22px;
 }
 .text-1:hover{
-        -ms-transform: scale(1.5); /* IE 9 */
-        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
         transform: scale(1.5); 
 }

@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(183, 236, 210);
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .button {
+    flex: 1;
+    text-align: center;
+    justify-content: space-around;
+    padding: 1%;
+    justify-items: center;
+  }
+  .button:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }
+.head{
+text-align: center;
+font-size: 30px;
+}  

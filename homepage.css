@@ -72,8 +72,8 @@ nav {
 
 body{
     background-color: dimgray;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
    
 }
 .logo{
@@ -81,6 +81,7 @@ body{
     width: 100%;
     max-width: 1700px;
     justify-content: center;
+    padding-bottom: 1px;
 
 }
 .logo:hover{
@@ -94,6 +95,7 @@ body{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 5px red;
+    
 }
 .title:hover{
         -ms-transform: scale(1.5); 

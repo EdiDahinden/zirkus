@@ -29,7 +29,7 @@ nav {
   transform: translate(-50%, -30%);
   font-size: 5rem;
   font-family: "Lobster", cursive;
-  color: rgb(61, 61, 61);
+  color: rgb(4, 0, 0);
 }
 
 .intro {
@@ -44,7 +44,7 @@ nav {
   align-items: center;
 }
 .slider {
-  background: rgb(89, 110, 110);
+  background: rgb(59, 59, 59);
   position: fixed;
   top: 0;
   left: 0;
@@ -71,7 +71,9 @@ nav {
 }
 
 body{
-    background-color: dimgray;
+    background-color: darkslategrey;
+    background-repeat: repeat-round;
+    background-size: 10px 7px;
     margin: 0px;
     padding: 0px;
    
@@ -80,11 +82,12 @@ body{
      display: flex;
      justify-content: center;
      margin: auto;
+     padding-top: 2.5%;
     
 
 }
 .logo:hover{
-        -ms-transform: scale(1.5); 
+        -ms-transform: scale(2.5); 
         -webkit-transform: scale(1.5); 
         transform: scale(1.5); 
 }

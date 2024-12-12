@@ -1,7 +1,8 @@
 body {
   background-color: rgb(183, 236, 210);
-  margin: 5px;
-  padding: 10px;
+  position: absolute;
+  
+  padding: 0px;
 }
 
 .button {
@@ -21,11 +22,6 @@ body {
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
 .column {
   float: left;
   width: 12.5%;
@@ -42,7 +38,7 @@ body {
 }
 
 .row:after {
-  content: "";
+  content: normal;
   display: table;
   clear: both;
 }
